@@ -43,11 +43,11 @@ test = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/itismohan/qualtan"
-Documentation = "https://github.com/itismohan/qualtan#readme"
-Repository = "https://github.com/itismohan/qualtan"
-Issues = "https://github.com/itismohan/qualtan/issues"
-Security = "https://github.com/itismohan/qualtan/security/advisories"
+Homepage = "https://github.com/Samarasimhalu/qualtan"
+Documentation = "https://github.com/Samarasimhalu/qualtan#readme"
+Repository = "https://github.com/Samarasimhalu/qualtan"
+Issues = "https://github.com/Samarasimhalu/qualtan/issues"
+Security = "https://github.com/Samarasimhalu/qualtan/security/advisories"
 
 [project.scripts]
 qualtan = "cli.main:cli"

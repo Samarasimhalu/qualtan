@@ -2,15 +2,15 @@
 
 ## Initial maintainership
 
-The repository owner, **[@itismohan](https://github.com/itismohan)**, is the initial core maintainer and release owner. This initial ownership is a bootstrap arrangement; the project should recruit at least one additional active core maintainer before a stable `1.0` release.
+The repository owner, **[@Samarasimhalu](https://github.com/Samarasimhalu)**, is the initial core maintainer and release owner. This initial ownership is a bootstrap arrangement; the project should recruit at least one additional active core maintainer before a stable `1.0` release.
 
 | Ownership area | Initial owner | Responsibilities |
 |---|---|---|
-| Project direction, releases, and governance | `@itismohan` | Release approval, roadmap, public-contract decisions, and governance evolution |
-| Security and policy controls | `@itismohan` | Private disclosure triage, policy review, execution/mutation safeguards |
-| Core workflow and domain contracts | `@itismohan` | Compatibility, workflow persistence, validator integrity, and migration decisions |
-| Documentation, examples, and community health | `@itismohan` | Contributor experience, issue triage, and public documentation quality |
-| CI, packaging, and supply chain | `@itismohan` | Build integrity, dependency posture, release artifacts, and provenance roadmap |
+| Project direction, releases, and governance | `@Samarasimhalu` | Release approval, roadmap, public-contract decisions, and governance evolution |
+| Security and policy controls | `@Samarasimhalu` | Private disclosure triage, policy review, execution/mutation safeguards |
+| Core workflow and domain contracts | `@Samarasimhalu` | Compatibility, workflow persistence, validator integrity, and migration decisions |
+| Documentation, examples, and community health | `@Samarasimhalu` | Contributor experience, issue triage, and public documentation quality |
+| CI, packaging, and supply chain | `@Samarasimhalu` | Build integrity, dependency posture, release artifacts, and provenance roadmap |
 
 ## Responsibilities
 

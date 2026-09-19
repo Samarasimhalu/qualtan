@@ -27,5 +27,5 @@ All notable changes to QUALTAN are documented in this file. The project follows 
 - Deterministic REST/GraphQL Playwright route stubs and local Locust smoke infrastructure.
 - CI/CD validation with an enforced Python dependency audit and secret-safe MCP configuration templates.
 
-[Unreleased]: https://github.com/itismohan/qualtan/compare/v0.1.0...HEAD
-[0.1.0]: https://github.com/itismohan/qualtan/releases/tag/v0.1.0
+[Unreleased]: https://github.com/Samarasimhalu/qualtan/compare/v0.1.0...HEAD
+[0.1.0]: https://github.com/Samarasimhalu/qualtan/releases/tag/v0.1.0

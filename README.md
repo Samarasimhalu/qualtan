@@ -18,8 +18,8 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/itismohan/qualtan/actions/workflows/ci-cd.yml">
-    <img src="https://github.com/itismohan/qualtan/actions/workflows/ci-cd.yml/badge.svg?branch=main" alt="CI/CD status"/>
+  <a href="https://github.com/Samarasimhalu/qualtan/actions/workflows/ci-cd.yml">
+    <img src="https://github.com/Samarasimhalu/qualtan/actions/workflows/ci-cd.yml/badge.svg?branch=main" alt="CI/CD status"/>
   </a>
   <a href="docs/MCP_SECURITY_AUDIT.md">
     <img src="https://img.shields.io/badge/security-pip--audit%20enforced-success" alt="Security audit enforced"/>
