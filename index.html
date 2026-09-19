@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="QUALTAN is a governed AI quality engineering framework that turns requirements into validated, approval-ready test artifacts." />
+    <meta name="theme-color" content="#111315" />
+    <meta property="og:title" content="QUALTAN | Governed AI quality engineering" />
+    <meta property="og:description" content="Move faster with AI-assisted quality engineering that stays typed, validated, and human-approved." />
+    <meta property="og:type" content="website" />
+    <title>QUALTAN | Governed AI quality engineering</title>
+    <link rel="icon" href="assets/qualtan.png" type="image/png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="noise" aria-hidden="true"></div>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="QUALTAN home">
+        <span class="brand-mark">Q</span>
+        <span>QUALTAN</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+      <nav id="site-nav" class="site-nav" aria-label="Main navigation">
+        <a href="#why">Why Qualtan</a>
+        <a href="#capabilities">Capabilities</a>
+        <a href="#workflow">Workflow</a>
+        <a href="#security">Security</a>
+        <a class="nav-cta" href="https://github.com/Samarasimhalu/qualtan" target="_blank" rel="noreferrer">View on GitHub <span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero section-shell">
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><span class="pulse"></span> Governed AI quality engineering</p>
+          <h1>Let AI move fast. <em>Keep quality in control.</em></h1>
+          <p class="hero-lede">QUALTAN turns requirements into validated test artifacts through typed contracts, deterministic gates, and explicit human approval.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="https://github.com/Samarasimhalu/qualtan#quick-start-examples" target="_blank" rel="noreferrer">Start with the offline demo <span aria-hidden="true">→</span></a>
+            <a class="text-link" href="#workflow">See how it works <span aria-hidden="true">↓</span></a>
+          </div>
+          <div class="hero-footnote"><span class="status-dot"></span> Open source · Apache 2.0 · Python 3.11+</div>
+        </div>
+        <div class="hero-visual reveal reveal-delay" aria-label="QUALTAN quality control illustration">
+          <div class="visual-ring ring-one"></div>
+          <div class="visual-ring ring-two"></div>
+          <div class="visual-card card-top"><span class="tiny-label">MODEL OUTPUT</span><strong>Proposed</strong><span class="card-check">✓</span></div>
+          <img src="assets/qualtan.png" alt="Illustrated QUALTAN quality guardian" />
+          <div class="visual-card card-bottom"><span class="tiny-label">HUMAN GATE</span><strong>Approved</strong><span class="card-check">✓</span></div>
+          <span class="orbit-label label-one">typed contracts</span>
+          <span class="orbit-label label-two">audit trail</span>
+        </div>
+      </section>
+
+      <section class="signal-strip" aria-label="QUALTAN product signals">
+        <div class="section-shell signal-grid">
+          <div><strong>Approval-gated</strong><span>Execution and mutation controls</span></div>
+          <div><strong>Deterministic</strong><span>Validation before progression</span></div>
+          <div><strong>Evidence-first</strong><span>Durable artifacts and telemetry</span></div>
+          <div><strong>Local-first</strong><span>Offline demo, no surprise calls</span></div>
+        </div>
+      </section>
+
+      <section id="why" class="section-shell why-section">
+        <div class="section-intro reveal">
+          <p class="eyebrow">01 / The reason</p>
+          <h2>AI can propose the answer. Your team still owns the decision.</h2>
+          <p>QUALTAN separates probabilistic model reasoning from the deterministic systems that validate, approve, and record what happens next.</p>
+        </div>
+        <div class="feature-grid">
+          <article class="feature-card reveal">
+            <span class="feature-number">01</span>
+            <h3>Typed from the start</h3>
+            <p>Strict domain contracts keep stories, plans, tests, evidence, and reports structured and inspectable.</p>
+            <div class="code-line"><span>QualityWorkItem</span><b>✓ valid</b></div>
+          </article>
+          <article class="feature-card feature-card-accent reveal reveal-delay-short">
+            <span class="feature-number">02</span>
+            <h3>Validated before it moves</h3>
+            <p>Deterministic quality gates catch missing coverage, unsafe source, schema drift, and compile failures.</p>
+            <div class="gate-bars"><i></i><i></i><i></i><i></i><i></i></div>
+          </article>
+          <article class="feature-card reveal reveal-delay">
+            <span class="feature-number">03</span>
+            <h3>Approval is a feature</h3>
+            <p>Durable workflows pause at the right moment, preserving the review decision and the evidence behind it.</p>
+            <div class="approval-line"><span>review required</span><b>→</b><span class="approval-pill">human</span></div>
+          </article>
+        </div>
+      </section>
+
+      <section id="capabilities" class="capabilities-section section-shell">
+        <div class="section-intro reveal">
+          <p class="eyebrow">02 / The capability map</p>
+          <h2>One governed control plane for the quality lifecycle.</h2>
+          <p>Start with a requirement and finish with a reviewable, reproducible record of what was proposed, validated, approved, and run.</p>
+        </div>
+        <div class="capability-grid">
+          <article class="capability reveal"><span>REQUIREMENTS</span><h3>Jira and API intake</h3><p>Bring in stories, acceptance criteria, OpenAPI descriptions, or approved quality knowledge.</p><a href="https://github.com/Samarasimhalu/qualtan/blob/main/integrations/jira.py" target="_blank" rel="noreferrer">Inspect the boundary ↗</a></article>
+          <article class="capability reveal reveal-delay-short"><span>INTELLIGENCE</span><h3>Risk-based planning</h3><p>Analyze intent, risk, coverage, test data, security, and performance needs through typed services.</p><a href="https://github.com/Samarasimhalu/qualtan/blob/main/application/workflows.py" target="_blank" rel="noreferrer">See the workflow ↗</a></article>
+          <article class="capability reveal reveal-delay"><span>ARTIFACTS</span><h3>Test generation</h3><p>Produce bounded Playwright and quality artifacts that are checked for source safety and compilation.</p><a href="https://github.com/Samarasimhalu/qualtan/blob/main/validators/quality_gates.py" target="_blank" rel="noreferrer">View the quality gates ↗</a></article>
+          <article class="capability reveal"><span>ASSURANCE</span><h3>Security and performance</h3><p>Keep sensitive data redacted and translate approved plans into safe, bounded security and Locust scenarios.</p><a href="https://github.com/Samarasimhalu/qualtan/tree/main/agents" target="_blank" rel="noreferrer">Explore the agents ↗</a></article>
+          <article class="capability reveal reveal-delay-short"><span>INTEGRATIONS</span><h3>Jira, X-Ray, and MCP</h3><p>Connect through narrow, auditable adapters. External mutations remain disabled until explicitly enabled.</p><a href="https://github.com/Samarasimhalu/qualtan/blob/main/mcp_server.py" target="_blank" rel="noreferrer">Read the MCP surface ↗</a></article>
+          <article class="capability reveal reveal-delay"><span>REPORTING</span><h3>Evidence that travels</h3><p>Retain reports, traces, approvals, telemetry, and evaluation results for review and handover.</p><a href="https://github.com/Samarasimhalu/qualtan/tree/main/infrastructure" target="_blank" rel="noreferrer">See the infrastructure ↗</a></article>
+        </div>
+      </section>
+
+      <section id="workflow" class="workflow-section">
+        <div class="section-shell">
+          <div class="section-intro reveal">
+            <p class="eyebrow">03 / The workflow</p>
+            <h2>From requirement to evidence, with no mystery steps.</h2>
+          </div>
+          <div class="workflow-track" role="list">
+            <div class="workflow-step active reveal" role="listitem"><span class="step-index">01</span><strong>Ingest</strong><p>Bring in a story, spec, or API.</p></div>
+            <div class="workflow-step reveal reveal-delay-short" role="listitem"><span class="step-index">02</span><strong>Analyze</strong><p>Map intent, risk, and coverage.</p></div>
+            <div class="workflow-step reveal reveal-delay" role="listitem"><span class="step-index">03</span><strong>Generate</strong><p>Propose an executable plan.</p></div>
+            <div class="workflow-step reveal reveal-delay-long" role="listitem"><span class="step-index">04</span><strong>Approve</strong><p>Keep a human in the loop.</p></div>
+            <div class="workflow-step reveal reveal-delay-longer" role="listitem"><span class="step-index">05</span><strong>Validate</strong><p>Run gates and capture proof.</p></div>
+          </div>
+          <div class="workflow-note reveal"><span class="note-icon">↗</span><p>Every meaningful node is checkpointed. Stop, review, and resume without losing the thread.</p><a href="https://github.com/Samarasimhalu/qualtan/blob/main/README.md" target="_blank" rel="noreferrer">Read the framework <span aria-hidden="true">→</span></a></div>
+        </div>
+      </section>
+
+      <section id="security" class="principles-section section-shell">
+        <div class="principles-heading reveal"><p class="eyebrow">04 / The boundary</p><h2>Built for teams who want leverage without surrendering judgment.</h2></div>
+        <div class="principles-list">
+          <div class="principle reveal"><span>01</span><div><h3>Models propose.</h3><p>AI handles bounded extraction, reasoning, generation, and diagnosis.</p></div></div>
+          <div class="principle reveal reveal-delay-short"><span>02</span><div><h3>Policies decide.</h3><p>Execution hosts, external mutations, and sensitive data stay behind explicit controls.</p></div></div>
+          <div class="principle reveal reveal-delay"><span>03</span><div><h3>Evidence remains.</h3><p>Artifacts, approvals, telemetry, and outcomes form a durable audit trail.</p></div></div>
+          <div class="principle reveal reveal-delay-long"><span>04</span><div><h3>Production scales deliberately.</h3><p>Keep the control plane stateless, move long-running work to isolated workers, and externalize durable state before multi-replica operation.</p></div></div>
+        </div>
+      </section>
+
+      <section class="getting-started-section section-shell">
+        <div class="section-intro reveal"><p class="eyebrow">05 / The first ten minutes</p><h2>Try the safe path before you connect a live system.</h2></div>
+        <div class="start-grid">
+          <div class="start-step reveal"><span>01</span><h3>Install</h3><p>Use Python 3.11+ and install the package with its test extras.</p><code>pip install "qualtan[test]"</code></div>
+          <div class="start-step reveal reveal-delay-short"><span>02</span><h3>Run offline</h3><p>Exercise the typed workflow with deterministic fixtures and no model or Jira account.</p><code>pytest -q tests/test_modernized_framework.py</code></div>
+          <div class="start-step reveal reveal-delay"><span>03</span><h3>Connect carefully</h3><p>Configure approved providers only after reviewing policy posture and integration boundaries.</p><a class="text-link" href="https://github.com/Samarasimhalu/qualtan/tree/main/examples/offline-demo" target="_blank" rel="noreferrer">Open the offline demo ↗</a></div>
+        </div>
+      </section>
+
+      <section class="closing-section section-shell reveal">
+        <div><p class="eyebrow">Ready when you are</p><h2>Make your next quality decision easier to trust.</h2></div>
+        <a class="button button-light" href="https://github.com/Samarasimhalu/qualtan#installation" target="_blank" rel="noreferrer">Explore the framework <span aria-hidden="true">↗</span></a>
+      </section>
+    </main>
+
+    <footer class="site-footer section-shell">
+      <a class="brand" href="#top"><span class="brand-mark">Q</span><span>QUALTAN</span></a>
+      <p>Governed AI quality engineering.</p>
+      <div class="footer-links"><a href="https://github.com/Samarasimhalu/qualtan" target="_blank" rel="noreferrer">GitHub</a><a href="https://github.com/Samarasimhalu/qualtan/blob/main/SECURITY.md" target="_blank" rel="noreferrer">Security</a><a href="https://github.com/Samarasimhalu/qualtan/blob/main/LICENSE" target="_blank" rel="noreferrer">Apache 2.0</a></div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
